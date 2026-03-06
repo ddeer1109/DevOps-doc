@@ -41,7 +41,7 @@
 
 ## Current Progress
 
-- [ ] Module 01: DevOps Intro & OS
+- [x] Module 01: DevOps Intro & OS
 - [ ] Module 02: Networking
 - [ ] Module 03: Unix Tools
 - [ ] Module 04: Git

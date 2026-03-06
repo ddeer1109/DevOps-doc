@@ -1,0 +1,47 @@
+site_name: DevOps-doc
+site_description: Personal reference notes for a 6-month DevOps bootcamp
+site_url: https://ddeer1109.github.io/DevOps-doc/
+repo_url: https://github.com/ddeer1109/DevOps-doc
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Lessons:
+      - "01 - DevOps Intro": lessons/01-devops-intro.md
+      - "02 - Linux Basics": lessons/02-linux-basics.md
+  - Cheatsheets:
+      - Linux Permissions: cheatsheets/linux-permissions.md
+      - Linux Commands: cheatsheets/linux-commands.md
